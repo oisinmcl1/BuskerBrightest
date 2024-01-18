@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Busker's Brightest</title>
+    <!-- Add your CSS styles or link to an external stylesheet here -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your App</h1>
+    </header>
+
+    <main>
+        <section id="queue-section">
+            <h2>Virtual Queue</h2>
+            <!-- Add virtual queue content here -->
+            <p>Current Queue Status: <span id="queue-status">Not joined</span></p>
+            <button onclick="joinQueue()">Join Queue</button>
+        </section>
+
+        <section id="order-section">
+            <h2>Menu and Ordering</h2>
+            <!-- Add menu and ordering content here -->
+            <p>Select items from the menu and place your order.</p>
+            <button onclick="browseMenu()">Browse Menu</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your App Name</p>
+    </footer>
+
+    <!-- Add your JavaScript code or link to an external script here -->
+    <script>
+        function joinQueue() {
+            // Add logic to handle joining the virtual queue
+            document.getElementById("queue-status").innerText = "In Queue";
+        }
+
+        function browseMenu() {
+            // Add logic to navigate to the menu page
+            alert("Redirecting to the menu page");
+        }
+    </script>
+</body>
+</html>
+

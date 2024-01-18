@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order - Bar/Restaurant App</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Bar/Restaurant App</h1>
+        </header>
+
+        <section>
+            <h2>Order</h2>
+            <p>Select the items you'd like to order.</p>
+            
+            <form action="order-confirmation.html" method="post">
+                <label for="item1">Drink 1</label>
+                <input type="checkbox" id="item1" name="items[]" value="Drink 1">
+
+                <label for="item2">Drink 2</label>
+                <input type="checkbox" id="item2" name="items[]" value="Drink 2">
+
+                <!-- Add more checkboxes for additional menu items -->
+
+                <button type="submit" class="button">Place Order</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Bar/Restaurant App</p>
+    </footer>
+
+</body>
+</html>
