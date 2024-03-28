@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "firebase": "^10.4.0",
-    "firebase-tools": "^12.6.2"
-  }
-}
